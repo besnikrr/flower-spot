@@ -1,0 +1,77 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 350px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 3px;
+  color: white;
+  padding: 20px;
+
+  .icon {
+    position: absolute;
+    right: 0px;
+    top: 5px;
+  }
+
+  .desk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+      font-family: 'Ubuntu';
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 15px;
+      letter-spacing: 0px;
+      text-align: center;
+      margin-bottom: 5px;
+    }
+
+    p {
+      font-family: 'Ubuntu';
+      font-style: italic;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 12px;
+      color: #ffffff;
+      opacity: 0.7;
+      margin-top: 0px;
+      margin-bottom: 20px;
+    }
+
+    button {
+      padding: 10px 15px;
+    }
+  }
+}
+
+.gradient {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.0001) 0%,
+    rgba(0, 0, 0, 0.7) 89.5%
+  );
+  border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+  .content {
+    height: 290px;
+  }
+}
+
+@media (max-width: 500px) {
+  .content {
+    height: 230px;
+  }
+}

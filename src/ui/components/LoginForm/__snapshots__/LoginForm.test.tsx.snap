@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<form
+  className="modal"
+  onSubmit={[Function]}
+>
+  <h1>
+    Welcome Back
+  </h1>
+  <div
+    className="MuiFormControl-root MuiTextField-root text-field css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+  >
+    <label
+      className="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-filled MuiFormLabel-root MuiFormLabel-colorPrimary css-o943dk-MuiFormLabel-root-MuiInputLabel-root"
+      data-shrink={true}
+      htmlFor=":r0:"
+      id=":r0:-label"
+    >
+      Email Address
+    </label>
+    <div
+      className="MuiFilledInput-root MuiFilledInput-underline MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl css-19mk8g1-MuiInputBase-root-MuiFilledInput-root"
+      onClick={[Function]}
+    >
+      <input
+        aria-invalid={false}
+        autoFocus={false}
+        className="MuiFilledInput-input MuiInputBase-input css-10botns-MuiInputBase-input-MuiFilledInput-input"
+        disabled={false}
+        id=":r0:"
+        name="email"
+        onAnimationStart={[Function]}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        required={false}
+        type="email"
+      />
+    </div>
+  </div>
+  <div
+    className="MuiFormControl-root MuiTextField-root text-field css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+  >
+    <label
+      className="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-filled MuiFormLabel-root MuiFormLabel-colorPrimary css-o943dk-MuiFormLabel-root-MuiInputLabel-root"
+      data-shrink={true}
+      htmlFor=":r1:"
+      id=":r1:-label"
+    >
+      Password
+    </label>
+    <div
+      className="MuiFilledInput-root MuiFilledInput-underline MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl css-19mk8g1-MuiInputBase-root-MuiFilledInput-root"
+      onClick={[Function]}
+    >
+      <input
+        aria-invalid={false}
+        autoFocus={false}
+        className="MuiFilledInput-input MuiInputBase-input css-10botns-MuiInputBase-input-MuiFilledInput-input"
+        disabled={false}
+        id=":r1:"
+        name="password"
+        onAnimationStart={[Function]}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        required={false}
+        type="password"
+      />
+    </div>
+  </div>
+  <button
+    className="btn btn--pink btn--squared full-width create-btn"
+    type="submit"
+  >
+    Login to your Account
+  </button>
+</form>
+`;
